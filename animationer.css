@@ -102,7 +102,7 @@
   animation-iteration-count: 1;
   transform: scale(
     0.1
-  ); /*This sets the default size of the ball. In this case I want it to stay as small as it is once the animation finishes (To match line 121)*/
+  ); /*This sets the default size of the ball. In this case I want it to stay as small as it is once the animation finishes (To match line 126)*/
 }
 
 @keyframes zoom_out {
@@ -177,7 +177,7 @@
   animation-name: fade_out;
   animation-duration: 4s;
   animation-timing-function: linear;
-  opacity: 0; /*This sets the opacity of the ball, in this case I want it to stay faded out, to stay gone once the animation finishes (To match line 183)*/
+  opacity: 0; /*This sets the opacity of the ball, in this case I want it to stay faded out, to stay gone once the animation finishes (To match line 188)*/
 }
 
 @keyframes fade_out {
